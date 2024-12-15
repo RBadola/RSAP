@@ -46,7 +46,7 @@ const RegisterPage = () => {
                 photoBase64: values.photo,
             }
             console.log(payload)
-            const response = await fetch("https://magical-faun-f73683.netlify.app/user/", {
+            const response = await fetch("https://rsap-api.onrender.com/user/", {
                 method: "POST",
                 body: JSON.stringify(payload),
                 headers: {
