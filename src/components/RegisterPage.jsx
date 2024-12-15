@@ -52,7 +52,7 @@ const RegisterPage = () => {
                 headers: {
                     "Content-Type": "application/json"
                 },
-                credentials: 'include',
+                // credentials: 'include',
             })
             const data = await response.json()
             setErrors(prev => ({ ...prev, backendError: true }));
